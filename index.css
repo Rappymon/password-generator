@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    position: absolute;
+    background: #1F2937;
+}
+
+h1{
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 50px;
+    top: 50px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #4ADF86;
+}
+
+h2, h3{
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+h2{
+    top: 155px;
+}
+
+h3{
+    top: 185px;
+}
+
+#passwordLength{
+    position: absolute;
+    width: 310px;
+    height: 20px;
+    left: 52px;
+    top: 245px;
+}
+
+#generator{
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 285px;
+    background: #10B981;
+    border-radius: 6px;
+}
+
+.password{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    color: #55F991;
+}
+
+#firstPassword-el{
+    left: 52px;
+    top: 331px;
+}
+
+#secondPassword-el{
+    left: 287px;
+    top: 331px;
+}
