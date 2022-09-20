@@ -19,10 +19,19 @@ function generatePassword(){
     secondPasswordEl.textContent = randomPassword2
     randomPassword1 = ""
     randomPassword2 = ""
-
 }
 
 function generateRandomCharacter(){
         let randomIndex = Math.floor(Math.random() * characters.length)
         randomCharacter = characters[randomIndex]
+}
+
+function copyPassword1(){
+    navigator.clipboard.writeText(firstPasswordEl.textContent)
+    alert("Copied the text: " + firstPasswordEl.textContent )
+}
+
+function copyPassword2(){
+    navigator.clipboard.writeText(secondPasswordEl.textContent)
+    alert("Copied the text: " + secondPasswordEl.textContent )
 }
