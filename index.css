@@ -76,9 +76,11 @@ h3{
 #firstPassword-el{
     left: 52px;
     top: 331px;
+    overflow: auto;
 }
 
 #secondPassword-el{
     left: 287px;
     top: 331px;
+    overflow: auto;
 }
